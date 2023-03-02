@@ -1,7 +1,6 @@
 // ID 6310210150
 // Password : ommy18345
-// Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjYzMTAyMTAxNTAiLCJDdXNfSUQiOjMsImlhdCI6MTY3Nzc0OTU3MCwiZXhwIjoxNjc4MDA4NzcwfQ.
-//         cJPdiEwVjFmPWDTaTJsghuYPwRoijWmJYCQLzJbmlgY
+// Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IjYzMTAyMTAxNTAiLCJDdXNfSUQiOjMsImlhdCI6MTY3Nzc0OTU3MCwiZXhwIjoxNjc4MDA4NzcwfQ.cJPdiEwVjFmPWDTaTJsghuYPwRoijWmJYCQLzJbmlgY
 
 const bcrypt = require('bcrypt')
 const SALT_ROUNDS = 10
@@ -30,6 +29,7 @@ if(connection.connect){
 
 const express =require('express')
 const jsonwebtoken = require('jsonwebtoken')
+const { query } = require('express')
 const app = express()
 const port = 3000
 
@@ -41,14 +41,16 @@ function autheticateToken(req , res , next){
   const authHeader = req.headers['authorization']
   const token = authHeader && authHeader.split(' ')[1]
   if (token == null ) return res.sendStatus(401)
-  jwt.verify(token,TOKEN_SECRET, (err,user) => {
+  jwt.verify(token,TOKEN_SECRET, (err,customer) => {
       if(err) { return res.sendStatus(403) }
       else {
-          req.user = user
+          req.customer = customer
           next()
       }
   })
 }
+
+I love U 
 
 /* =============== Account ================ */
 // =====  Login     =====
@@ -111,6 +113,38 @@ app.get('/register',(req,res) => {
     })
     })
   })
+
+// ===== Sitting ===== //
+app.post("/Setting",autheticateToken , (req,res) => {
+  let customer_profie = req.customer
+  console.log(customer_profie)
+
+  let cus_id = req.customer.Cus_ID;
+
+  const Email = req.query.Email;
+  const bio = req.query.bio;
+  const job = req.query.job;
+
+  let query = `UPDATE customer SET 
+              Email='${Email}',
+              bio='${bio}',job='${job}' 
+              WHERE cus_id = ${cus_id} `
+  connection.query(query,(err,rows) =>{
+    console.log(err)
+    if (err){
+      res.json({
+        "STATUS" : "400",
+        "MESSAGE" : "ERROR can't update coffee"
+      })
+    }else{
+      res.json({
+        "STATUS" : "200",
+        "MESSAGE" : `Updating ${cus_id} succesful`
+      })
+    }
+  })
+})
+  
 /* ======================================== */
 
 /* =============== Coure Meg ================ */
@@ -149,6 +183,9 @@ app.get('/search_course',(req,res) => {
         }
     })
 }) 
+
+// ===== search_course ===== 
+
 
 app.listen(port, () => {
     console.log(`Example app listening on port 3000`)
