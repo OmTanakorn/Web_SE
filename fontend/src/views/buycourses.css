@@ -1,0 +1,1408 @@
+.buycourses-container {
+  min-height: 100vh;
+}
+.buycourses-buycourses {
+  width: 100%;
+  height: 1031px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-image: linear-gradient(147deg, rgba(99, 175, 191, 1) 40%, rgba(255, 200, 183, 1) 83%);
+}
+.buycourses-ellipse6 {
+  top: -23px;
+  left: -201px;
+  width: 464px;
+  height: 312px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-rectangle43 {
+  top: 177px;
+  left: 0px;
+  width: 1600px;
+  height: 906px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 90px 90px 0 0;
+}
+.buycourses-rectangle24 {
+  top: 863px;
+  left: 0px;
+  width: 1440px;
+  height: 858px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 90px;
+}
+.buycourses-rectangle7 {
+  top: 302px;
+  left: 41px;
+  width: 856px;
+  height: 678px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 86px;
+}
+.buycourses-rectangle44 {
+  top: 548px;
+  left: 41px;
+  width: 856px;
+  height: 432px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 86px;
+}
+.buycourses-ellipse7 {
+  top: 581px;
+  left: 905px;
+  width: 209px;
+  height: 193px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.buycourses-rectangle8 {
+  top: -279px;
+  left: 41px;
+  width: 446px;
+  height: 680px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 86px;
+}
+.buycourses-ellipse71 {
+  top: 112px;
+  left: 62px;
+  width: 404px;
+  height: 461px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-imag-pngtreehanddrawncartooncomputervideo53644411 {
+  top: 723px;
+  left: 1028px;
+  width: 276px;
+  height: 255px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-ellipse8 {
+  top: 488px;
+  left: 899px;
+  width: 93px;
+  height: 171px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-ellipse9 {
+  top: 484px;
+  left: 1344px;
+  width: 98px;
+  height: 171px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-rectangle55 {
+  top: 402px;
+  left: 967px;
+  width: 399px;
+  height: 286px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 86px;
+}
+.buycourses-rectangle51 {
+  top: 545px;
+  left: 72px;
+  width: 419px;
+  height: 49px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-rectangle52 {
+  top: 776px;
+  left: 108px;
+  width: 243px;
+  height: 49px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-custom-information1 {
+  top: 549px;
+  left: 138px;
+  width: 281px;
+  height: 35px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-rectangle49 {
+  top: 324px;
+  left: 465px;
+  width: 383px;
+  height: 66px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-rectangle56 {
+  top: 320px;
+  left: 975px;
+  width: 383px;
+  height: 66px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-rectangle50 {
+  top: 336px;
+  left: 465px;
+  width: 383px;
+  height: 185px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-rectangle45 {
+  top: 454px;
+  left: 581px;
+  width: 149px;
+  height: 51px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 42px;
+}
+.buycourses-text {
+  top: 458px;
+  left: 605px;
+  color: rgba(255, 0, 15, 1);
+  width: 123px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text02 {
+  top: 456px;
+  left: 747px;
+  color: rgba(255, 0, 15, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text03 {
+  color: rgba(255, 0, 15, 1);
+}
+.buycourses-text05 {
+  top: 459px;
+  left: 510px;
+  color: rgba(120, 34, 62, 1);
+  width: 62px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text07 {
+  top: 408px;
+  left: 508px;
+  color: rgba(120, 34, 62, 1);
+  width: 72px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-rectangle71 {
+  top: 776px;
+  left: 41px;
+  width: 856px;
+  height: 206px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 86px;
+}
+.buycourses-rectangle38 {
+  top: 657px;
+  left: 975px;
+  width: 131px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 41px;
+}
+.buycourses-text09 {
+  top: 661px;
+  left: 1000px;
+  color: rgb(255, 255, 255);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text11 {
+  top: 408px;
+  left: 613px;
+  color: rgba(34, 34, 34, 0.5);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text13 {
+  top: 819px;
+  left: 205px;
+  color: rgba(34, 34, 34, 0.5);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text15 {
+  top: 862px;
+  left: 205px;
+  color: rgba(34, 34, 34, 0.5);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text17 {
+  top: 797px;
+  left: 567px;
+  color: rgba(34, 34, 34, 0.5);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text22 {
+  top: 848px;
+  left: 567px;
+  color: rgba(34, 34, 34, 0.5);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-image13 {
+  top: 336px;
+  left: 91px;
+  width: 355px;
+  height: 185px;
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+}
+.buycourses-text24 {
+  top: 334px;
+  left: 510px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-rectangle53 {
+  top: 756px;
+  left: 84px;
+  width: 213px;
+  height: 49px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 31px;
+}
+.buycourses-text26 {
+  top: 604px;
+  left: 144px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text28 {
+  top: 677px;
+  left: 144px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text30 {
+  top: 672px;
+  left: 553px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text32 {
+  top: 820px;
+  left: 138px;
+  color: rgba(120, 34, 62, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text34 {
+  top: 860px;
+  left: 138px;
+  color: rgba(120, 34, 62, 1);
+  width: 64px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text36 {
+  top: 794px;
+  left: 465px;
+  color: rgba(120, 34, 62, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text38 {
+  top: 850px;
+  left: 480px;
+  color: rgba(120, 34, 62, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text40 {
+  top: 600px;
+  left: 553px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-rectangle54 {
+  top: 910px;
+  left: 365px;
+  width: 160px;
+  height: 51px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 42px;
+}
+.buycourses-text42 {
+  top: 916px;
+  left: 390px;
+  color: rgba(255, 0, 15, 1);
+  width: 123px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text44 {
+  top: 913px;
+  left: 534px;
+  color: rgba(255, 0, 15, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text45 {
+  color: rgba(255, 0, 15, 1);
+}
+.buycourses-text47 {
+  top: 919px;
+  left: 123px;
+  color: rgba(120, 34, 62, 1);
+  width: 228px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text49 {
+  top: 445px;
+  left: 990px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text51 {
+  top: 486px;
+  left: 996px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text53 {
+  top: 522px;
+  left: 996px;
+  color: rgba(120, 34, 62, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text55 {
+  top: 445px;
+  left: 1292px;
+  color: rgba(34, 34, 34, 0.800000011920929);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text57 {
+  top: 484px;
+  left: 1292px;
+  color: rgba(34, 34, 34, 0.800000011920929);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text59 {
+  top: 517px;
+  left: 1292px;
+  color: rgba(34, 34, 34, 0.800000011920929);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text61 {
+  top: 445px;
+  left: 1237px;
+  color: rgba(184, 35, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text63 {
+  top: 484px;
+  left: 1221px;
+  color: rgba(184, 35, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text65 {
+  top: 515px;
+  left: 1222px;
+  color: rgba(184, 35, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-text67 {
+  top: 330px;
+  left: 1091px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-rectangle381 {
+  top: 657px;
+  left: 1225px;
+  width: 131px;
+  height: 40px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 41px;
+}
+.buycourses-text69 {
+  top: 660px;
+  left: 1265px;
+  color: rgba(255, 255, 255, 1);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-group55 {
+  top: 56px;
+  left: 1121px;
+  width: 81px;
+  height: 65px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-group54 {
+  top: 0px;
+  left: 0px;
+  width: 81px;
+  height: 65px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(242, 194, 48, 1);
+}
+.buycourses-line12 {
+  top: 133px;
+  left: 1127px;
+  width: 70px;
+  height: 0px;
+  position: absolute;
+}
+.buycourses-line29 {
+  top: 583.984375px;
+  left: 144px;
+  width: 271px;
+  height: 0px;
+  position: absolute;
+}
+.buycourses-line30 {
+  top: 796px;
+  left: 116px;
+  width: 143px;
+  height: 0px;
+  position: absolute;
+}
+.buycourses-group56 {
+  top: 77px;
+  left: 626px;
+  width: 472px;
+  height: 28px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-group29 {
+  top: 0px;
+  left: 0px;
+  width: 472px;
+  height: 28px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-text71 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-text73 {
+  top: 2.2737367544323206e-13px;
+  left: 121px;
+  color: rgba(255, 255, 255, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-text75 {
+  left: 240px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-text77 {
+  top: 2.2737367544323206e-13px;
+  left: 392px;
+  color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-image1501 {
+  top: 50px;
+  left: 286px;
+  width: 187px;
+  height: 83px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image111 {
+  top: 62px;
+  left: 1212px;
+  width: 39px;
+  height: 53px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image91000 {
+  top: 51px;
+  left: 1121px;
+  width: 68px;
+  height: 74px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-ellipse2 {
+  top: 38px;
+  left: 1292px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 7px;
+}
+.buycourses-order1 {
+  top: 189px;
+  left: 100px;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-line28 {
+  top: 279.9683837890625px;
+  left: 100px;
+  width: 251px;
+  height: 0px;
+  position: absolute;
+}
+.buycourses-login-recovered31 {
+  top: 202px;
+  left: 1131px;
+  width: 206px;
+  height: 73px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-text79 {
+  top: 225px;
+  left: 1180px;
+  color: rgba(120, 34, 62, 1);
+  width: 90px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.buycourses-image141 {
+  top: 220px;
+  left: 1298px;
+  width: 37px;
+  height: 32px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image151 {
+  top: 615px;
+  left: 129px;
+  width: 255px;
+  height: 53px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image152 {
+  top: 604px;
+  left: 539px;
+  width: 248px;
+  height: 64px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image153 {
+  top: 677px;
+  left: 539px;
+  width: 248px;
+  height: 64px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-image161 {
+  top: 688px;
+  left: 129px;
+  width: 381px;
+  height: 52px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-group57 {
+  top: 709px;
+  left: 256px;
+  width: 179px;
+  height: 16px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-group36 {
+  top: 0px;
+  left: 0px;
+  width: 179px;
+  height: 16px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-text81 {
+  color: rgba(206, 206, 206, 1);
+  width: 179px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-group72 {
+  top: 704px;
+  left: 640px;
+  width: 108px;
+  height: 16px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-group361 {
+  top: 0px;
+  left: 0px;
+  width: 108px;
+  height: 16px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-text83 {
+  color: rgba(206, 206, 206, 1);
+  width: 108px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-group73 {
+  top: 633px;
+  left: 202px;
+  width: 582px;
+  height: 19px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-group362 {
+  top: 0px;
+  left: 0px;
+  width: 582px;
+  height: 19px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-text85 {
+  left: 410px;
+  color: rgba(206, 206, 206, 1);
+  width: 172px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-text87 {
+  top: 3px;
+  color: rgba(206, 206, 206, 1);
+  width: 172px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-image171 {
+  top: 756px;
+  left: 115px;
+  width: 145px;
+  height: 36px;
+  position: absolute;
+  border-color: transparent;
+}
+.buycourses-group66 {
+  top: 910px;
+  left: 651px;
+  width: 179.66146850585938px;
+  height: 45px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.buycourses-rectangle10 {
+  top: 0px;
+  left: 0px;
+  width: 172px;
+  height: 45px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 28px;
+}
+.buycourses-text89 {
+  top: 8px;
+  left: 42px;
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.buycourses-line23 {
+  top: 892px;
+  left: 156px;
+  width: 618px;
+  height: 0px;
+  position: absolute;
+}
+
+.button1{
+  color: rgba(255, 255, 255, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+

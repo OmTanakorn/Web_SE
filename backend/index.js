@@ -35,7 +35,7 @@ const port = 3000
 
 
 
-/* ================           ================ */
+/* ================     Token      ================ */
 
 function autheticateToken(req , res , next){
   const authHeader = req.headers['authorization']
@@ -48,9 +48,7 @@ function autheticateToken(req , res , next){
           next()
       }
   })
-}
-
-I love U 
+} 
 
 /* =============== Account ================ */
 // =====  Login     =====
@@ -144,9 +142,36 @@ app.post("/Setting",autheticateToken , (req,res) => {
     }
   })
 })
+
+// ===== TOPUP =====
+app.post("/Topup",autheticateToken , (req,res) => {
+  let customer_profie = req.customer
+  console.log(customer_profie)
+  let cus_id = req.customer.Cus_ID;
+
+  const topup = req.query.topup;
+
+  let query = `UPDATE customer SET 
+              amount= amount + ${topup}
+              WHERE cus_id = ${cus_id} `
+  connection.query(query,(err,rows) =>{
+    console.log(err)
+    if (err){
+      res.json({
+        "STATUS" : "400",
+        "MESSAGE" : `ERROR can't update)
+        }`
+      })
+    }else{
+      res.json({
+        "STATUS" : "200",
+        "MESSAGE" : `Updating ${cus_id} succesful`
+      })
+    }
+  })
+})
   
 /* ======================================== */
-
 /* =============== Coure Meg ================ */
 // ===== ALL COURE =====
 app.get("/list_coure",(req,res) => {
@@ -162,6 +187,15 @@ app.get("/list_coure",(req,res) => {
         }
     })
 })
+
+// ===== Insert Coure ===== //
+app.post("/addCoure",(req,res) =>{
+  let Coures_Name = req.query.Coures_Name
+  let Course_price = req.query.Course_price
+  let Course_desc = req.query.Course_desc
+  let makeBy = req.query.makeBy
+
+} )
 
 // ===== search_course ===== 
 app.get('/search_course',(req,res) => {
@@ -184,7 +218,35 @@ app.get('/search_course',(req,res) => {
     })
 }) 
 
-// ===== search_course ===== 
+// ===== Buy_course =====
+app.post("/buycourse",autheticateToken , (req,res) => {
+  let customer_profie = req.customer
+  console.log(customer_profie)
+  let cus_id = req.customer.Cus_ID;
+
+  const Course_ID = req.query.Coures_ID;
+  const Course_price = req.query.Course_price;
+
+
+  let query = `UPDATE customer SET 
+              amount= amount - ${Course_price}
+              WHERE cus_id = ${cus_id} `
+  connection.query(query,(err,rows) =>{
+    console.log(err)
+    if (err){
+      res.json({
+        "STATUS" : "400",
+        "MESSAGE" : `ERROR can't update)
+        }`
+      })
+    }else{
+      res.json({
+        "STATUS" : "200",
+        "MESSAGE" : `Updating ${cus_id} succesful`
+      })
+    }
+  })
+})
 
 
 app.listen(port, () => {

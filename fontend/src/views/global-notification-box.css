@@ -1,0 +1,208 @@
+.global-notification-box-container {
+  min-height: 100vh;
+}
+.global-notification-box-global-notification-box {
+  width: 843px;
+  height: 410px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 420px;
+  border-color: transparent;
+  justify-content: center;
+}
+.global-notification-box-box {
+  top: 39px;
+  left: 0px;
+  width: 800px;
+  height: 360px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 45px;
+}
+.global-notification-box-group55 {
+  top: 87px;
+  left: 34px;
+  width: 716px;
+  height: 263px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.global-notification-box-group54 {
+  top: 0px;
+  left: 0px;
+  width: 716px;
+  height: 263px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.global-notification-box-group56 {
+  top: 0px;
+  left: 0px;
+  width: 716px;
+  height: 263px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.global-notification-box-group541 {
+  top: 0px;
+  left: 0px;
+  width: 716px;
+  height: 263px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.global-notification-box-rectangle18 {
+  top: 62px;
+  left: 206px;
+  width: 378px;
+  height: 88px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 55px;
+}
+.global-notification-box-text {
+  top: 79px;
+  left: 106px;
+  color: rgba(255, 255, 255, 1);
+  width: 586px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.global-notification-box-text2 {
+  top: 180px;
+  left: 92px;
+  color: rgba(0, 0, 0, 1);
+  width: 644px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.global-notification-box-cancel-button {
+  top: 330px;
+  left: 616px;
+  width: 120px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(171, 171, 171, 1);
+  border-radius: 15px;
+}
+.global-notification-box-o-button {
+  top: 330px;
+  left: 472px;
+  width: 120px;
+  height: 42px;
+  position: absolute;
+  border-color: rgba(255, 182, 96, 1);
+  border-radius: 15px;
+}
+.global-notification-box-text4 {
+  top: 337px;
+  left: 479px;
+  color: rgba(255, 255, 255, 1);
+  width: 105px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.global-notification-box-text6 {
+  left: 622px;
+  color: rgba(255, 255, 255, 1);
+  width: 105px;
+  bottom: 45px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}

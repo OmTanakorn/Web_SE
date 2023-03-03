@@ -1,0 +1,334 @@
+.register-container {
+  min-height: 100vh;
+}
+.register-register {
+  width: 100%;
+  height: 976px;
+  display: cover;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-image: linear-gradient(147deg, rgba(99, 175, 191, 1) 40%, rgba(255, 200, 183, 1) 83%);
+}
+/* BG */
+.register-container1 {
+  top: 37px;
+  left: 17px;
+  width: 1562px;
+  height: 951px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.register-login1 {
+  top: 0px;
+  left: 0px;
+  width: 1850px;
+  height: 951px;
+  position: absolute;
+  border-color: transparent;
+}
+/* username */
+.register-i-m-a-g-e21 {
+  top: 578px;
+  left: 1100px;
+  right: 154px;
+  width: 480px;
+  height: 167px;
+  position: absolute;
+  border-color: transparent;
+}
+/* email */
+.register-i-m-a-g-e24 {
+  top: 452px;
+  left: 1100px;
+  right: 156px;
+  width: 480px;
+  height: 167px;
+  position: absolute;
+  border-color: transparent;
+}
+/* password */
+.register-i-m-a-g-e22 {
+  top: 200px;
+  left: 1100px;
+  width: 480px;
+  height: 167px;
+  position: absolute;
+  border-color: transparent;
+}
+/* con-password */
+.register-i-m-a-g-e23 {
+  top: 324px;
+  left: 1100px;
+  right: 164px;
+  width: 480px;
+  height: 167px;
+  position: absolute;
+  border-color: transparent;
+}
+.register-group9 {
+  top: 219px;
+  left: 1070px;
+  width: 341.4498596191406px;
+  height: 32px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+/* username */
+.register-text {
+  left: 36px;
+  color: rgba(120, 34, 62, 1);
+  width: 122px;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/* email */
+.register-text02 {
+  top: 126px;
+  left: 36px;
+  color: rgba(120, 34, 62, 1);
+  width: 122px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/* password */
+.register-text04 {
+  top: 381px;
+  left: 36px;
+  color: rgba(120, 34, 62, 1);
+  width: 252px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/* con-password */
+.register-text06 {
+  top: 250px;
+  left: 36px;
+  color: rgba(120, 34, 62, 1);
+  width: 118px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+/* register-btn */
+.register-button {
+  color: #ffffff;
+  right: -60px;
+  width: 226px;
+  bottom: -563px;
+  height: 54px;
+  margin: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  border-color: #ffffff;
+  background-color: rgb(43, 196, 231);
+}
+/* cancel */
+.register-text08 {
+  color: rgba(206, 206, 206, 1);
+  right: 30px;
+  bottom: -592px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+/* username */
+.register-textinput {
+  top: 274px;
+  left: 1220px;
+  position: absolute;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+/* email */
+.register-textinput1 {
+  top: 400px;
+  left: 1220px;
+  position: absolute;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+/* password */
+.register-textinput2 {
+  top: 532px;
+  left: 1220px;
+  position: absolute;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+/* con-password */
+.register-textinput3 {
+  top: 654px;
+  left: 1220px;
+  position: absolute;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+/* logo */
+.register-i-m-a-g-e1501 {
+  top: 78px;
+  left: 72px;
+  width: 114px;
+  height: 51px;
+  position: absolute;
+  border-color: transparent;
+}
+/* REGISER */
+.register-text10 {
+  top: 145px;
+  left: 1220px;
+  color: rgba(242, 75, 136, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.register-text11 {
+  color: rgba(242, 75, 136, 1);
+}
+/* Hello */
+.register-text12 {
+  top: 156px;
+  left: 120px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 96px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.register-text14 {
+  top: 315px;
+  left: 128px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Krub;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.register-line5 {
+  top: 298px;
+  left: 128px;
+  width: 436px;
+  height: 0px;
+  position: absolute;
+}
+.register-line9 {
+  top: 397px;
+  left: 447px;
+  width: 145px;
+  height: 0px;
+  position: absolute;
+}
+.register-line7 {
+  top: 203px;
+  left: 706px;
+  width: 151px;
+  height: 0px;
+  position: absolute;
+}
+.register-line8 {
+  top: 184px;
+  left: 1376px;
+  width: 173px;
+  height: 0px;
+  position: absolute;
+}
+.register-i-m-a-g-e-pngtreehanddrawncartooncomputerconference5364 {
+  top: 434px;
+  left: 92px;
+  width: 565px;
+  height: 493px;
+  position: absolute;
+  border-color: transparent;
+}
