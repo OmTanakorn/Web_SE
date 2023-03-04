@@ -31,7 +31,13 @@ const express =require('express')
 const jsonwebtoken = require('jsonwebtoken')
 const { query } = require('express')
 const app = express()
-const port = 3000
+const port = 4000
+
+app.use((req,res,next) => {
+  res.header('Access-Control-Allow-Origin','*');
+  res.header('Access-Control-Allow-Headers','Origin, X-Requested-With ,Content-Type,Accept');
+  next()
+})
 
 
 
@@ -52,7 +58,7 @@ function autheticateToken(req , res , next){
 
 /* =============== Account ================ */
 // =====  Login     =====
-app.get("/login" , (req,res) => {
+app.post("/login" , (req,res) => {
   let Username = req.query.Username
   let Password = req.query.Password
 
@@ -84,7 +90,7 @@ app.get("/login" , (req,res) => {
 
 
 // =====  Register  =====
-app.get('/register',(req,res) => {
+app.post('/register',(req,res) => {
   const Username = req.query.Username;
   const Password = req.query.Password;
   const Email = req.query.Email;
