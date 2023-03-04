@@ -9,11 +9,11 @@ const TopUp = (props) => {
   const [value, setValue] = useState(0);
   const [selectedValue, setSelectedValue] = useState("");
 
-  function handleTopUp  (value) {
+  function handleTopUp(value) {
     setValue(value);
   }
 
-  function handleSelect (event) {
+  function handleSelect(event) {
     setSelectedValue(event.target.value);
   }
 
@@ -27,7 +27,7 @@ const TopUp = (props) => {
   return (
     <div className="top-up-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Top up</title>
       </Helmet>
       <div className="top-up-top-up">
         <img
@@ -80,72 +80,52 @@ const TopUp = (props) => {
           alt="Rectangle591191"
           className="top-up-rectangle59"
         />
-        <span className="top-up-text">
-          <span>CHOOSE AMOUNT (BATH)</span>
-        </span>
-        <span className="top-up-text02">
-          <span>
+        <label className="top-up-text">
+          <label>CHOOSE AMOUNT (BATH)</label>
+        </label>
+        <label className="top-up-text02">
+          <label>
             CHOOSE A PAYMENT METHOD
-            <span
+            <label
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
-          </span>
-        </span>
+          </label>
+        </label>
         <div className="top-up-group49">
-          <span className="top-up-text04">
-            <span>Credit card</span>
-          </span>
+          <label className="top-up-text04">
+            <label>Credit card</label>
+          </label>
           <img
             src="/playground_assets/image54651-yl8p-200h.png"
             alt="image54651"
             className="top-up-image5"
           />
         </div>
-        <span className="top-up-text06">
-          <span>SELECT EXISTING PAYMENT METHOD</span>
-        </span>
-        <span className="top-up-text08">
-          <span>Create New Payment Method</span>
-        </span>
+        <label className="top-up-text06">
+          <label>SELECT EXISTING PAYMENT METHOD</label>
+        </label>
+        <label className="top-up-text08">
+          <label>Create New Payment Method</label>
+        </label>
         <div className="top-up-group55">
           <div className="top-up-group54"></div>
         </div>
-        <img
-          src="/playground_assets/line121197-n6l.svg"
-          alt="Line121197"
-          className="top-up-line12"
-        />
-        <img
-          src="/playground_assets/line291191-8ffj.svg"
-          alt="Line291191"
-          className="top-up-line29"
-        />
-        <img
-          src="/playground_assets/line301191-92xb.svg"
-          alt="Line301191"
-          className="top-up-line30"
-        />
-        <img
-          src="/playground_assets/line311191-yw.svg"
-          alt="Line311191"
-          className="top-up-line31"
-        />
         <div className="top-up-group56">
           <div className="top-up-group29">
-            <span className="top-up-text10">
-              <span>Home</span>
-            </span>
-            <span className="top-up-text12">
-              <span>Course</span>
-            </span>
-            <span className="top-up-text14">
-              <span>My Course</span>
-            </span>
-            <span className="top-up-text16">
-              <span>Top up</span>
-            </span>
+            <label className="top-up-text10">
+              <button onClick={() => window.location.href="/home"}>Home</button>
+            </label>
+            <label className="top-up-text12">
+              <button onClick={() => window.location.href="/course"}>Course</button>
+            </label>
+            <label className="top-up-text14">
+              <button onClick={() => window.location.href="/mycourse"}>My Course</button>
+            </label>
+            <label className="top-up-text16">
+              <button onClick={() => window.location.href="/top-up"}>Top up</button>
+            </label>
           </div>
         </div>
         <img
@@ -153,22 +133,20 @@ const TopUp = (props) => {
           alt="Ellipse101191"
           className="top-up-ellipse10"
         />
+        {/* logo */}
         <img
           src="/playground_assets/image15011198-94jr-200h.png"
           alt="IMAGE15011198"
           className="top-up-image1501"
         />
-        <img
+        {/* setting */}
+        <img onClick={() => window.location.href="/setting"}
           src="/playground_assets/image1111198-dwxb-200w.png"
           alt="IMAGE1111198"
           className="top-up-image111"
         />
-        <img
-          src="/playground_assets/image910001198-04t-200w.png"
-          alt="IMAGE910001198"
-          className="top-up-image91000"
-        />
-        <img
+        {/* profile */}
+        <img  onClick={() => window.location.href="/setting"}
           src="/playground_assets/ellipse21198-nn5-200h.png"
           alt="Ellipse21198"
           className="top-up-ellipse2"
@@ -179,25 +157,20 @@ const TopUp = (props) => {
           className="top-up-image201"
         />
         <img
-          src="/playground_assets/line281199-eg1p.svg"
-          alt="Line281199"
-          className="top-up-line28"
-        />
-        <img
           src="/playground_assets/loginrecovered311022-wn0f-200h.png"
           alt="loginRecovered311022"
           className="top-up-login-recovered31"
         />
-        <span className="top-up-text18">
-          <span>
+        <label className="top-up-text18">
+          <label>
             9999.00
-            <span
+            <label
               dangerouslySetInnerHTML={{
                 __html: ' ',
               }}
             />
-          </span>
-        </span>
+          </label>
+        </label>
         <img
           src="/playground_assets/image1411023-pcd8-200h.png"
           alt="IMAGE1411023"
@@ -208,34 +181,23 @@ const TopUp = (props) => {
           alt="IMAGEPngtreehanddrawncartooncomputervideo536444121191"
           className="top-up-imag-pngtreehanddrawncartooncomputervideo53644412"
         />
-        {/* <img
-          src="/playground_assets/cancelbutton1191-w5yi-200h.png"
-          alt="CancelButton1191"
-          className="top-up-cancel-button"
-        /> */}
-        {/* <img
-          src="/playground_assets/okbutton1191-nvvd-200h.png"
-          alt="OKButton1191"
-          className="top-up-o-button"
-        /> */}
-        <span className="top-up-text20">
-          <button>Cancel</button>
-        </span>
-        <span className="top-up-text22">
-          <button onClick={() => handleTopUpSub(value,selectedValue)}>Top up</button>
-        </span>
+        <label className="top-up-text20">
+          <button onClick={() => window.location.href="/home"}>Cancel</button>
+        </label>
+        <label className="top-up-text22">
+          <button onClick={() => window.location.href="/home"}>Top up</button>
+        </label>
         <select className="top-up-select" onChange={handleSelect} >
           <option value={'Please SELECT'} >SELECT EXISTING PAYMENT METHOD</option>
           <option value={'Kplus'}>K Plus</option>
           <option value={'SCB'}>SCB</option>
           <option value={'KTB'}>KTB</option>
         </select>
-        <button className="top-up-button button" onClick={() => handleTopUp(300)}>300</button>
-        <button className="top-up-button1 button" onClick={() => handleTopUp(600)}>600</button>
-        <button className="top-up-button2 button" onClick={() => handleTopUp(900)}>900</button>
-        <button className="top-up-button3 button" onClick={() => handleTopUp(1200)}>1200</button>
-        <button className="top-up-button4 button" onClick={() => handleTopUp(1500)}>1500</button>
-        <span className="top-up-text35">Topup value {value} Bath Via {selectedValue}</span>
+        <button className="top-up-button" onClick={() => handleTopUp(300)}>300</button>
+        <button className="top-up-button1" onClick={() => handleTopUp(600)}>600</button>
+        <button className="top-up-button2" onClick={() => handleTopUp(900)}>900</button>
+        <button className="top-up-button3" onClick={() => handleTopUp(1200)}>1200</button>
+        <button className="top-up-button4" onClick={() => handleTopUp(1500)}>1500</button>
       </div>
     </div>
   )

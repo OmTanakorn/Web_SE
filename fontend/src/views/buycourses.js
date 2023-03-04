@@ -287,24 +287,9 @@ const Buycourses = (props) => {
         <label className="buycourses-text69">
           <button onClick={() => window.location.href="/mycourse"}>Pay</button>
         </label>
-        <div className="buycourses-group55">
+        {/* <div className="buycourses-group55">
           <div className="buycourses-group54"></div>
-        </div>
-        <img
-          alt="Line121023"
-          src="/playground_assets/line121023-tsjx.svg"
-          className="buycourses-line12"
-        />
-        <img
-          alt="Line291023"
-          src="/playground_assets/line291023-pmkm.svg"
-          className="buycourses-line29"
-        />
-        <img
-          alt="Line301162"
-          src="/playground_assets/line301162-7m9.svg"
-          className="buycourses-line30"
-        />
+        </div> */}
         <div className="buycourses-group56">
           <div className="buycourses-group29">
             <label className="buycourses-text71">
@@ -326,16 +311,19 @@ const Buycourses = (props) => {
           src="/playground_assets/image15011023-0bly-200h.png"
           className="buycourses-image1501"
         />
+        {/* setting */}
         <img
           alt="IMAGE1111023"
           src="/playground_assets/image1111023-nmje-200w.png"
           className="buycourses-image111"
         />
+        {/* notificate */}
         <img
           alt="IMAGE910001023"
           src="/playground_assets/image910001023-weh07-200w.png"
           className="buycourses-image91000"
         />
+        {/* profile */}
         <img onClick={() => window.location.href="/setting"}
           alt="Ellipse21023"
           src="/playground_assets/ellipse21023-lddb-200h.png"

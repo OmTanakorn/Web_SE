@@ -22,9 +22,9 @@
   border-color: transparent;
 }
 .my-course-group55 {
-  top: 75px;
-  left: 838px;
-  width: 140px;
+  top: 80px;
+  left: 920px;
+  width: 300px;
   height: 65px;
   display: flex;
   padding: 0;
@@ -46,7 +46,7 @@
 .my-course-group54 {
   top: 0px;
   left: 0px;
-  width: 140px;
+  width: 200px;
   height: 65px;
   display: flex;
   padding: 0;
@@ -73,7 +73,7 @@
 .my-course-rectangle7 {
   top: 192px;
   left: 0px;
-  width: 1600px;
+  width: 1900px;
   height: 906px;
   position: absolute;
   border-color: transparent;
@@ -108,7 +108,7 @@
 .my-course-rectangle24 {
   top: 320px;
   left: 72px;
-  width: 1525px;
+  width: 1750px;
   height: 778px;
   position: absolute;
   border-color: transparent;
@@ -160,8 +160,8 @@
   border-radius: 90px 0 0;
 }
 .my-course-rectangle46 {
-  right: -5px;
-  width: 1252px;
+  right: 130px;
+  width: 1420px;
   bottom: 0px;
   height: 703px;
   position: absolute;
@@ -475,7 +475,7 @@
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -487,12 +487,12 @@
 }
 .my-course-text39 {
   top: 2.2737367544323206e-13px;
-  left: 121px;
+  left: 150px;
   color: rgba(255, 255, 255, 1);
   width: 83px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -503,11 +503,12 @@
   text-decoration: none;
 }
 .my-course-text41 {
-  left: 240px;
+  left: 320px;
   color: rgba(255, 255, 255, 1);
+  width: 300px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -519,12 +520,12 @@
 }
 .my-course-text43 {
   top: 2.2737367544323206e-13px;
-  left: 392px;
+  left: 550px;
   color: rgba(255, 255, 255, 1);
-  width: 100px;
+  width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -544,7 +545,7 @@
 }
 .my-course-image111 {
   top: 78px;
-  left: 1196px;
+  left: 1680px;
   width: 39px;
   height: 53px;
   position: absolute;
@@ -552,7 +553,7 @@
 }
 .my-course-image91000 {
   top: 67px;
-  left: 1105px;
+  left: 1590px;
   width: 68px;
   height: 74px;
   position: absolute;
@@ -638,7 +639,7 @@
 }
 .my-course-ellipse2 {
   top: 43px;
-  left: 1276px;
+  left: 1750px;
   width: 100px;
   height: 100px;
   position: absolute;

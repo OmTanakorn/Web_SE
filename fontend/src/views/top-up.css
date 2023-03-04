@@ -32,7 +32,7 @@
 .top-up-rectangle7 {
   top: 181px;
   left: 0px;
-  width: 1440px;
+  width: 1900px;
   height: 906px;
   position: absolute;
   border-color: transparent;
@@ -41,7 +41,7 @@
 .top-up-rectangle58 {
   top: 859px;
   left: 0px;
-  width: 1440px;
+  width: 1900px;
   height: 858px;
   position: absolute;
   border-color: transparent;
@@ -50,15 +50,15 @@
 .top-up-rectangle24 {
   top: 301px;
   left: 73px;
-  width: 1296px;
+  width: 1750px;
   height: 778px;
   position: absolute;
   border-color: transparent;
   border-radius: 90px;
 }
 .top-up-rectangle60 {
-  left: 30px;
-  width: 1296px;
+  left: 73px;
+  width: 1750px;
   bottom: 0px;
   height: 243px;
   position: absolute;
@@ -67,7 +67,7 @@
 }
 .top-up-rectangle57 {
   top: 313px;
-  left: 814px;
+  left: 1200px;
   width: 537px;
   height: 709px;
   position: absolute;
@@ -220,9 +220,9 @@
   text-decoration: underline;
 }
 .top-up-group55 {
-  top: 64px;
-  left: 988px;
-  width: 140px;
+  top: 70px;
+  left: 1000px;
+  width: 150px;
   height: 65px;
   display: flex;
   padding: 0;
@@ -243,7 +243,7 @@
 }
 .top-up-group54 {
   top: 0px;
-  left: 0px;
+  left: 120px;
   width: 140px;
   height: 65px;
   display: flex;
@@ -335,7 +335,7 @@
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -347,12 +347,12 @@
 }
 .top-up-text12 {
   top: 2.2737367544323206e-13px;
-  left: 121px;
+  left: 150px;
   color: rgba(255, 255, 255, 1);
   width: 83px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -363,11 +363,12 @@
   text-decoration: none;
 }
 .top-up-text14 {
-  left: 240px;
+  left: 300px;
   color: rgba(255, 255, 255, 1);
+  width: 200px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -379,12 +380,12 @@
 }
 .top-up-text16 {
   top: 2.2737367544323206e-13px;
-  left: 392px;
+  left: 500px;
   color: rgba(255, 255, 255, 1);
-  width: 80px;
+  width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -396,7 +397,7 @@
 }
 .top-up-ellipse10 {
   top: 800px;
-  left: 875px;
+  left: 1265px;
   width: 415px;
   height: 420px;
   position: absolute;
@@ -412,7 +413,7 @@
 }
 .top-up-image111 {
   top: 67px;
-  left: 1212px;
+  left: 1650px;
   width: 39px;
   height: 53px;
   position: absolute;
@@ -420,7 +421,7 @@
 }
 .top-up-image91000 {
   top: 56px;
-  left: 1121px;
+  left: 1560px;
   width: 68px;
   height: 74px;
   position: absolute;
@@ -428,7 +429,7 @@
 }
 .top-up-ellipse2 {
   top: 45px;
-  left: 1290px;
+  left: 1700px;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -454,7 +455,7 @@
 }
 .top-up-login-recovered31 {
   top: 208px;
-  left: 1098px;
+  left: 1600px;
   width: 206px;
   height: 73px;
   position: absolute;
@@ -462,7 +463,7 @@
 }
 .top-up-text18 {
   top: 231px;
-  left: 1147px;
+  left: 1650px;
   color: rgba(120, 34, 62, 1);
   width: 90px;
   height: auto;
@@ -481,7 +482,7 @@
 }
 .top-up-image141 {
   top: 226px;
-  left: 1265px;
+  left: 1760px;
   width: 37px;
   height: 32px;
   position: absolute;
@@ -489,7 +490,7 @@
 }
 .top-up-imag-pngtreehanddrawncartooncomputervideo53644412 {
   top: 378px;
-  left: 856px;
+  left: 1240px;
   width: 465px;
   height: 436px;
   position: absolute;
@@ -516,8 +517,8 @@
 .top-up-text20 {
   color: #ffffff;
   top: 901px;
-  left: 893px;
-  background-color: #F24B88 ;
+  left: 1250px;
+  background-color: #F24B88;
   width: 132px;
   height: 45px;
   position: absolute;
@@ -537,7 +538,7 @@
   border-radius: var(--dl-radius-radius-radius8);
 }
 .top-up-text20:hover {
-  background-color: aqua;
+  background-color: #fd025e;
   color: #ffffff;
   
 }
@@ -589,7 +590,7 @@
   font-style: normal;
   text-align: center;
   font-weight: 700;
-  border-color: var(--dl-color-danger-700);
+  border-color: aqua;
   border-style: ridge;
   border-width: 5px;
   background-color: #ffffff;
@@ -604,7 +605,7 @@
   font-style: normal;
   text-align: center;
   font-weight: 700;
-  border-color: var(--dl-color-danger-700);
+  border-color: aqua;
   border-style: ridge;
   border-width: 5px;
   background-color: rgb(255, 255, 255);
@@ -619,7 +620,7 @@
   font-style: normal;
   text-align: center;
   font-weight: 700;
-  border-color: var(--dl-color-danger-700);
+  border-color: aqua;
   border-style: ridge;
   border-width: 5px;
   background-color: rgb(255, 255, 255);
@@ -634,7 +635,7 @@
   font-style: normal;
   text-align: center;
   font-weight: 700;
-  border-color: var(--dl-color-danger-700);
+  border-color: aqua;
   border-style: ridge;
   border-width: 5px;
   background-color: rgb(255, 255, 255);
@@ -649,30 +650,30 @@
   font-style: normal;
   text-align: center;
   font-weight: 700;
-  border-color: var(--dl-color-danger-700);
+  border-color: aqua;
   border-style: ridge;
   border-width: 5px;
   background-color: rgb(255, 255, 255);
 }
 
 .top-up-button:focus {
-  background-color: #00d9ff;
+  border-color: #0059ff;
 }
 
 .top-up-button1:focus {
-  background-color: #00d9ff;
+  border-color: #0059ff;
 }
 
 .top-up-button2:focus {
-  background-color: #00d9ff;
+  border-color: #0059ff;
 }
 
 .top-up-button3:focus {
-  background-color: #00d9ff;
+  border-color: #0059ff;
 }
 
 .top-up-button4:focus {
-  background-color: #00d9ff;
+  border-color: #0059ff;
 }
 
 .top-up-text35 {

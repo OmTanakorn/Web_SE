@@ -11,19 +11,14 @@ const Course = (props) => {
         <title>Course</title>
       </Helmet>
       <div className="course-course">
-        {/* <img
+        <img
           alt="Ellipse61021"
           src="/playground_assets/ellipse61021-zqv-500w.png"
           className="course-ellipse6"
-        /> */}
+        />
         <div className="course-group55">
           <div className="course-group54"></div>
         </div>
-        <img
-          alt="Line121021"
-          src="/playground_assets/line121021-ym7e.svg"
-          className="course-line12"
-        />
         <img
           alt="Rectangle78512"
           src="/playground_assets/rectangle78512-vfvm-1600w.png"
@@ -169,9 +164,6 @@ const Course = (props) => {
           src="/playground_assets/image148514-8t07-700w.png"
           className="course-image14"
         />
-        <label className="course-text45">
-          <label>Search...</label>
-        </label>
         <label className="course-text47">
           <label>
             9999.00
@@ -198,20 +190,17 @@ const Course = (props) => {
             </label>
           </div>
         </div>
+        {/* logo */}
         <img
           alt="IMAGE15011021"
           src="/playground_assets/image15011021-p5te-200h.png"
           className="course-image1501"
         />
-        <img
+        {/* setting */}
+        <img onClick={() => window.location.href="/setting"}
           alt="IMAGE1111021"
           src="/playground_assets/image1111021-gd7u-200w.png"
           className="course-image111"
-        />
-        <img
-          alt="IMAGE910001021"
-          src="/playground_assets/image910001021-qdn-200w.png"
-          className="course-image91000"
         />
         <img
           alt="image191021"
@@ -234,41 +223,6 @@ const Course = (props) => {
           className="course-course1"
         />
         <img
-          alt="Line281021"
-          src="/playground_assets/line281021-urn7.svg"
-          className="course-line28"
-        />
-        <img
-          alt="Line231021"
-          src="/playground_assets/line231021-7fei.svg"
-          className="course-line23"
-        />
-        <img
-          alt="Line291022"
-          src="/playground_assets/line291022-mdx9.svg"
-          className="course-line29"
-        />
-        <img
-          alt="Line301022"
-          src="/playground_assets/line301022-rm7.svg"
-          className="course-line30"
-        />
-        <img
-          alt="Line311022"
-          src="/playground_assets/line311022-io15.svg"
-          className="course-line31"
-        />
-        <img
-          alt="Line321022"
-          src="/playground_assets/line321022-mbf.svg"
-          className="course-line32"
-        />
-        <img
-          alt="Line331022"
-          src="/playground_assets/line331022-ulqf.svg"
-          className="course-line33"
-        />
-        <img
           alt="Ellipse21022"
           src="/playground_assets/ellipse21022-kxdq-200h.png"
           className="course-ellipse2"
@@ -282,6 +236,11 @@ const Course = (props) => {
           alt="IMAGE1411022"
           src="/playground_assets/image1411022-xp5w-200h.png"
           className="course-image141"
+        />
+        <input
+          type="text"
+          placeholder="Search..."
+          className="my-course-textinput input"
         />
       </div>
     </div>
