@@ -261,15 +261,11 @@ const Home = (props) => {
         <div className="home-group73">
           <div className="home-group543"></div>
         </div>
-        <img
+        {/* setting */}
+        <img onClick={() => window.location.href="/setting"}
           alt="IMAGE1119369"
           src="/playground_assets/image1119369-p49-200w.png"
           className="home-image111"
-        />
-        <img
-          alt="IMAGE910009350"
-          src="/playground_assets/image910009350-v1zk-200w.png"
-          className="home-image91000"
         />
         <label className="home-text58">
           <label>รายละเอียด</label>

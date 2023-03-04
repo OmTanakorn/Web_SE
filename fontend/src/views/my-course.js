@@ -20,18 +20,10 @@ const MyCourse = (props) => {
           <div className="my-course-group54"></div>
         </div>
         <img
-          alt="Line121022"
-          src="/playground_assets/line121022-vfwa.svg"
-          className="my-course-line12"
-        />
-        <img
           alt="Rectangle71022"
           src="/playground_assets/rectangle71022-8f4o-1600w.png"
           className="my-course-rectangle7"
         />
-        <label className="my-course-text">
-          <label>Save</label>
-        </label>
         <img
           alt="image31022"
           src="/playground_assets/image31022-4zyh-200h.png"
@@ -180,15 +172,11 @@ const MyCourse = (props) => {
           src="/playground_assets/image15011022-3x79-200h.png"
           className="my-course-image1501"
         />
-        <img
+        {/* setting */}
+        <img onClick={() => window.location.href="/setting"}
           alt="IMAGE1111022"
           src="/playground_assets/image1111022-677-200w.png"
           className="my-course-image111"
-        />
-        <img
-          alt="IMAGE910001022"
-          src="/playground_assets/image910001022-mzj-200w.png"
-          className="my-course-image91000"
         />
         <img
           alt="image191022"
@@ -205,37 +193,8 @@ const MyCourse = (props) => {
           src="/playground_assets/image211022-nzqn-200h.png"
           className="my-course-image21"
         />
-        <img
-          alt="Line281022"
-          src="/playground_assets/line281022-e8r.svg"
-          className="my-course-line28"
-        />
-        <img
-          alt="Line231022"
-          src="/playground_assets/line231022-zaeh.svg"
-          className="my-course-line23"
-        />
-        <img
-          alt="Line291022"
-          src="/playground_assets/line291022-xqxe.svg"
-          className="my-course-line29"
-        />
-        <img
-          alt="Line301022"
-          src="/playground_assets/line301022-0cju.svg"
-          className="my-course-line30"
-        />
-        <img
-          alt="Line311022"
-          src="/playground_assets/line311022-q94hf.svg"
-          className="my-course-line31"
-        />
-        <img
-          alt="Line331023"
-          src="/playground_assets/line331023-e3i.svg"
-          className="my-course-line33"
-        />
-        <img
+        {/* profile */}
+        <img onClick={() => window.location.href="/setting"}
           alt="Ellipse21023"
           src="/playground_assets/ellipse21023-jij9-200h.png"
           className="my-course-ellipse2"

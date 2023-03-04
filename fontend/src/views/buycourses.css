@@ -23,7 +23,7 @@
 .buycourses-rectangle43 {
   top: 177px;
   left: 0px;
-  width: 1600px;
+  width: 1900px;
   height: 906px;
   position: absolute;
   border-color: transparent;
@@ -962,7 +962,8 @@
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
+  width: 300px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -974,12 +975,12 @@
 }
 .buycourses-text73 {
   top: 2.2737367544323206e-13px;
-  left: 121px;
+  left: 150px;
   color: rgba(255, 255, 255, 1);
   width: 83px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -990,11 +991,12 @@
   text-decoration: none;
 }
 .buycourses-text75 {
-  left: 240px;
+  left: 320px;
   color: rgba(255, 255, 255, 1);
   height: auto;
+  width: 300px;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -1006,12 +1008,12 @@
 }
 .buycourses-text77 {
   top: 2.2737367544323206e-13px;
-  left: 392px;
+  left: 550px;
   color: rgba(255, 255, 255, 1);
-  width: 100px;
+  width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -1031,7 +1033,7 @@
 }
 .buycourses-image111 {
   top: 62px;
-  left: 1212px;
+  left: 1680px;
   width: 39px;
   height: 53px;
   position: absolute;
@@ -1039,7 +1041,7 @@
 }
 .buycourses-image91000 {
   top: 51px;
-  left: 1121px;
+  left: 1580px;
   width: 68px;
   height: 74px;
   position: absolute;
@@ -1047,7 +1049,7 @@
 }
 .buycourses-ellipse2 {
   top: 38px;
-  left: 1292px;
+  left: 1750px;
   width: 100px;
   height: 100px;
   position: absolute;

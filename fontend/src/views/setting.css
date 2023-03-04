@@ -24,7 +24,7 @@
 .setting-rectangle7 {
   top: 183px;
   left: 5px;
-  width: 1584px;
+  width: 1900px;
   height: 915px;
   position: absolute;
   border-color: transparent;
@@ -32,8 +32,8 @@
 }
 .setting-rectangle24 {
   top: 992px;
-  left: 0px;
-  width: 1440px;
+  left: 171px;
+  width: 1320px;
   height: 858px;
   position: absolute;
   border-color: transparent;
@@ -414,7 +414,7 @@
   text-decoration: none;
 }
 .setting-group65 {
-  top: 371px;
+  top: 335px;
   left: 1201px;
   width: 137px;
   height: 35px;
@@ -457,7 +457,7 @@
 }
 .setting-text19 {
   top: 8px;
-  left: 8px;
+  left: 2px;
   color: rgba(255, 242, 242, 1);
   height: auto;
   position: absolute;
@@ -473,7 +473,7 @@
 }
 .setting-text21 {
   top: 8px;
-  left: 87px;
+  left: 82px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -531,7 +531,7 @@
 }
 .setting-text23 {
   top: 8px;
-  left: 8px;
+  left: 2px;
   color: rgba(255, 242, 242, 1);
   height: auto;
   position: absolute;
@@ -547,7 +547,7 @@
 }
 .setting-text25 {
   top: 8px;
-  left: 87px;
+  left: 82px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -562,7 +562,7 @@
   text-decoration: none;
 }
 .setting-group67 {
-  top: 719px;
+  top: 655px;
   left: 1212px;
   width: 137px;
   height: 35px;
@@ -605,7 +605,7 @@
 }
 .setting-text27 {
   top: 8px;
-  left: 8px;
+  left: 2px;
   color: rgba(255, 242, 242, 1);
   height: auto;
   position: absolute;
@@ -621,7 +621,7 @@
 }
 .setting-text29 {
   top: 8px;
-  left: 87px;
+  left: 82px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -636,7 +636,7 @@
   text-decoration: none;
 }
 .setting-group68 {
-  top: 834px;
+  top: 787px;
   left: 1212px;
   width: 137px;
   height: 35px;
@@ -679,7 +679,7 @@
 }
 .setting-text31 {
   top: 8px;
-  left: 8px;
+  left: 2px;
   color: rgba(255, 242, 242, 1);
   height: auto;
   position: absolute;
@@ -695,7 +695,7 @@
 }
 .setting-text33 {
   top: 8px;
-  left: 87px;
+  left: 82px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -710,7 +710,7 @@
   text-decoration: none;
 }
 .setting-group69 {
-  top: 974px;
+  top: 946px;
   left: 1212px;
   width: 137px;
   height: 35px;
@@ -753,7 +753,7 @@
 }
 .setting-text35 {
   top: 8px;
-  left: 8px;
+  left: 2px;
   color: rgba(255, 242, 242, 1);
   height: auto;
   position: absolute;
@@ -769,7 +769,7 @@
 }
 .setting-text37 {
   top: 8px;
-  left: 87px;
+  left: 82px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
@@ -969,9 +969,9 @@
   text-decoration: none;
 }
 .setting-group55 {
-  top: 46px;
-  left: 1185px;
-  width: 83px;
+  top: 58px;
+  left: 1680px;
+  width: 50px;
   height: 65px;
   display: flex;
   padding: 0;
@@ -993,7 +993,7 @@
 .setting-group54 {
   top: 0px;
   left: 0px;
-  width: 83px;
+  width: 60px;
   height: 65px;
   display: flex;
   padding: 0;
@@ -1027,7 +1027,7 @@
 }
 .setting-ellipse2 {
   top: 35px;
-  left: 1302px;
+  left: 1750px;
   width: 100px;
   height: 100px;
   position: absolute;
@@ -1045,8 +1045,8 @@
   border-color: transparent;
 }
 .setting-image111 {
-  top: 52px;
-  left: 1207px;
+  top: 64px;
+  left: 1690px;
   width: 39px;
   height: 53px;
   position: absolute;
@@ -1143,7 +1143,7 @@
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -1155,12 +1155,12 @@
 }
 .setting-text53 {
   top: 2.2737367544323206e-13px;
-  left: 121px;
+  left: 150px;
   color: rgba(255, 255, 255, 1);
   width: 83px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -1171,11 +1171,12 @@
   text-decoration: none;
 }
 .setting-text55 {
-  left: 240px;
+  left: 320px;
   color: rgba(255, 255, 255, 1);
   height: auto;
+  width: 200px;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;
@@ -1187,12 +1188,12 @@
 }
 .setting-text57 {
   top: 2.2737367544323206e-13px;
-  left: 392px;
+  left: 550px;
   color: rgba(255, 255, 255, 1);
-  width: 80px;
+  width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 36px;
   align-self: auto;
   font-style: Medium;
   text-align: left;

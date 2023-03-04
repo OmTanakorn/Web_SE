@@ -66,21 +66,6 @@ const Setting = (props) => {
           src="/playground_assets/rectangle499915-rlsh-200h.png"
           className="setting-rectangle49"
         />
-        <img
-          alt="Rectangle259984"
-          src="/playground_assets/rectangle259984-vcdg-200h.png"
-          className="setting-rectangle25"
-        />
-        <img
-          alt="Rectangle269985"
-          src="/playground_assets/rectangle269985-gvkm-200h.png"
-          className="setting-rectangle26"
-        />
-        <img
-          alt="Rectangle279986"
-          src="/playground_assets/rectangle279986-phoc-200h.png"
-          className="setting-rectangle27"
-        />
         <div className="setting-login-recovered11">
           <input
             type="text"
@@ -105,12 +90,12 @@ const Setting = (props) => {
         />
         <input
           type="text"
-          placeholder="Please enterYour Bio 400 characters left."
+          placeholder="Please enter Your Bio 400 characters left."
           className="setting-textinput1 input"
         />
         <input
           type="text"
-          placeholder="Please enter  Job title."
+          placeholder="Please enter Job title."
           className="setting-textinput2 input"
         />
         <input
@@ -123,44 +108,21 @@ const Setting = (props) => {
           <option value="Normal text">Miss.</option>
           <option value="Normal text">Mrs.</option>
         </select>
-        <span className="setting-text">
-          <span>Write a short introduction.</span>
-        </span>
-        <span className="setting-text02">
-          <span>
-            Enter an alternative email if you’d like to be contracted via a
-            different email.
-          </span>
-        </span>
-        <span className="setting-text04">
-          <span>This will be display on your profile.</span>
-        </span>
-        <span className="setting-text06">
-          <span>Profile</span>
-        </span>
-        <span className="setting-text08">
-          <span>Profile</span>
-        </span>
-        <span className="setting-text10">
-          <span>Password</span>
-        </span>
-        <span className="setting-text12">
-          <span>Statements</span>
-        </span>
-        <span className="setting-text14">
-          <span>Notifications</span>
-        </span>
+        <label className="setting-text06">
+          <label>Profile</label>
+        </label>
+        <label className="setting-text08">
+          <label>Profile</label>
+        </label>
+        {/* low profile */}
         <img
           alt="Ellipse33179"
           src="/playground_assets/ellipse33179-tuev-200h.png"
           className="setting-ellipse3"
         />
-        <span className="setting-text16">
-          <span>Upload your photo and personal details.</span>
-        </span>
-        <span className="setting-text18">
-          Please enterYour Bio 400 characters left.
-        </span>
+        <label className="setting-text16">
+          <label>Upload your photo and personal details.</label>
+        </label>
         <div className="setting-group65">
           <img
             alt="Rectangle93183"
@@ -172,12 +134,12 @@ const Setting = (props) => {
             src="/playground_assets/rectangle103184-0c2b-200h.png"
             className="setting-rectangle10"
           />
-          <span className="setting-text19">
-            <span>Cancel</span>
-          </span>
-          <span className="setting-text21">
-            <span>Save</span>
-          </span>
+          <label className="setting-text19">
+            <button>Cancel</button>
+          </label>
+          <label className="setting-text21">
+            <button>Save</button>
+          </label>
         </div>
         <div className="setting-group66">
           <img
@@ -190,12 +152,12 @@ const Setting = (props) => {
             src="/playground_assets/rectangle109912-i2dd-200h.png"
             className="setting-rectangle101"
           />
-          <span className="setting-text23">
-            <span>Cancel</span>
-          </span>
-          <span className="setting-text25">
-            <span>Save</span>
-          </span>
+          <label className="setting-text23">
+            <button>Cancel</button>
+          </label>
+          <label className="setting-text25">
+            <button>Save</button>
+          </label>
         </div>
         <div className="setting-group67">
           <img
@@ -208,12 +170,12 @@ const Setting = (props) => {
             src="/playground_assets/rectangle109913-gj5-200h.png"
             className="setting-rectangle102"
           />
-          <span className="setting-text27">
-            <span>Cancel</span>
-          </span>
-          <span className="setting-text29">
-            <span>Save</span>
-          </span>
+          <label className="setting-text27">
+            <button>Cancel</button>
+          </label>
+          <label className="setting-text29">
+            <button>Save</button>
+          </label>
         </div>
         <div className="setting-group68">
           <img
@@ -226,12 +188,12 @@ const Setting = (props) => {
             src="/playground_assets/rectangle109915-t2dc-200h.png"
             className="setting-rectangle103"
           />
-          <span className="setting-text31">
-            <span>Cancel</span>
-          </span>
-          <span className="setting-text33">
-            <span>Save</span>
-          </span>
+          <label className="setting-text31">
+            <button>Cancel</button>
+          </label>
+          <label className="setting-text33">
+            <button>Save</button>
+          </label>
         </div>
         <div className="setting-group69">
           <img
@@ -244,28 +206,28 @@ const Setting = (props) => {
             src="/playground_assets/rectangle109916-n2bp-200h.png"
             className="setting-rectangle104"
           />
-          <span className="setting-text35">
-            <span>Cancel</span>
-          </span>
-          <span className="setting-text37">
-            <span>Save</span>
-          </span>
+          <label className="setting-text35">
+            <button>Cancel</button>
+          </label>
+          <label className="setting-text37">
+            <button>Save</button>
+          </label>
         </div>
-        <span className="setting-text39">
-          <span>Username</span>
-        </span>
-        <span className="setting-text41">
-          <span>Your photo</span>
-        </span>
-        <span className="setting-text43">
-          <span>Your Bio</span>
-        </span>
-        <span className="setting-text45">
-          <span>Job title</span>
-        </span>
-        <span className="setting-text47">
-          <span>Alternative contract email</span>
-        </span>
+        <label className="setting-text39">
+          <label>Username</label>
+        </label>
+        <label className="setting-text41">
+          <label>Your photo</label>
+        </label>
+        <label className="setting-text43">
+          <label>Your Bio</label>
+        </label>
+        <label className="setting-text45">
+          <label>Job title</label>
+        </label>
+        <label className="setting-text47">
+          <label>Alternative contract email</label>
+        </label>
         <img
           alt="Line219995"
           src="/playground_assets/line219995-ufip.svg"
@@ -311,14 +273,6 @@ const Setting = (props) => {
           src="/playground_assets/rectangle43112-64xw-200h.png"
           className="setting-rectangle4"
         />
-        <img
-          alt="image33111"
-          src="/playground_assets/image33111-vgzd-200h.png"
-          className="setting-image3"
-        />
-        <span className="setting-text49">
-          <span>Show my job title in my profile.</span>
-        </span>
         <div className="setting-group55">
           <div className="setting-group54"></div>
         </div>
@@ -332,35 +286,17 @@ const Setting = (props) => {
           src="/playground_assets/line129361-meo.svg"
           className="setting-line12"
         />
-        <img
+        {/* profile */}
+        <img onClick={() => window.location.href="/setting"}
           alt="Ellipse29362"
           src="/playground_assets/ellipse29362-tch-200h.png"
           className="setting-ellipse2"
         />
-        <img
-          alt="IMAGE910009367"
-          src="/playground_assets/image910009367-05b6-200w.png"
-          className="setting-image91000"
-        />
-        <img
+        {/* setting */}
+        <img onClick={() => window.location.href="/setting"}
           alt="IMAGE1119370"
           src="/playground_assets/image1119370-22as-200w.png"
           className="setting-image111"
-        />
-        <img
-          alt="Line189978"
-          src="/playground_assets/line189978-6n4d.svg"
-          className="setting-line18"
-        />
-        <img
-          alt="Line209991"
-          src="/playground_assets/line209991-p6qe.svg"
-          className="setting-line20"
-        />
-        <img
-          alt="Line199982"
-          src="/playground_assets/line199982-x1ov.svg"
-          className="setting-line19"
         />
         <img
           alt="srtting119990"
@@ -377,20 +313,20 @@ const Setting = (props) => {
           src="/playground_assets/image189912-u0p-200h.png"
           className="setting-image18"
         />
-        <div className="setting-group56">
-          <div className="setting-group29">
-            <span className="setting-text51">
-              <span>Home</span>
-            </span>
-            <span className="setting-text53">
-              <span>Course</span>
-            </span>
-            <span className="setting-text55">
-              <span>My Course</span>
-            </span>
-            <span className="setting-text57">
-              <span>Top up</span>
-            </span>
+        <div className="buycourses-group56">
+          <div className="buycourses-group29">
+            <label className="setting-text51">
+              <button onClick={() => window.location.href="/home"}>Home</button>
+            </label>
+            <label className="setting-text53">
+              <button onClick={() => window.location.href="/course"}>Course</button>
+            </label>
+            <label className="setting-text55">
+              <button onClick={() => window.location.href="/mycourse"}>My Course</button>
+            </label>
+            <label className="setting-text57">
+              <button onClick={() => window.location.href="/topup"}>Top up</button>
+            </label>
           </div>
         </div>
       </div>
