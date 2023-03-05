@@ -9,6 +9,7 @@ const jwt = require('jsonwebtoken')
 const dotenv = require('dotenv')
 dotenv.config()
 const TOKEN_SECRET = process.env.TOKEN_SECRET
+const bodyParser = require('body-parser');
 
 
 
@@ -59,30 +60,28 @@ function autheticateToken(req , res , next){
 /* =============== Account ================ */
 // =====  Login     =====
 app.post("/login" , (req,res) => {
-  let Username = req.query.Username
-  let Password = req.query.Password
+  let Username = req.query.Username;
+  let password = req.query.Password;
 
-  let query = `SELECT * FROM customer WHERE Username = '${Username}'`
+  let query = `SELECT * FROM customer WHERE Username = "${Username}" `
 
   connection.query(query ,(err,row) => {
       if(err){
-          console.log(err)
           res.json({
               "STATUS" : "400" ,
               "MESSAGE" : "Error noting in Databesssssssss "
           })
       }else{
           let db_password = row[0].Password
-          bcrypt.compare(Password, db_password , (err,result) => {
+          bcrypt.compare(password, db_password , (err,result) => {
               if(result){
                   let payload = {
                       "Username" : row[0].Username,
                       "Cus_ID" : row[0].Cus_ID,
                   }
-                  console.log(payload)
                   let token = jwt.sign(payload , TOKEN_SECRET , {expiresIn : '3d'})
                   res.send(token)
-              }else {res.send(`Inalid usernaem${Password} / password${db_password}`)}
+              }else {res.send(`${db_password} ${password}` )}
           })
       }
   })

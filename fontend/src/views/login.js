@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 import './login.css'
 
@@ -11,8 +12,20 @@ const Login = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    
     console.log(username, password)
+
+    axios.post(`http://127.0.0.1:4000/login?Username=${username}&Password=${password}`)
+      .then(response => {
+        // handle successful response
+      })
+      .catch(error => {
+        // handle error
+  });
   }
+
+  //</form>onClick={() => window.location.href="/home"
+
 
   return (
     <div className="login-container">
@@ -94,7 +107,7 @@ const Login = (props) => {
             <label>Forget password</label>
           </label>
           <form onSubmit={handleSubmit}>
-            <button className="login-button" onClick={() => window.location.href="/home"}>Login</button>
+            <button className="login-button">Login</button>
           </form>
         </div>
         <label className="login-text12">

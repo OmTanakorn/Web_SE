@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 import './register.css'
 
@@ -15,6 +16,18 @@ const Register = (props) => {
     e.preventDefault()
     console.log(username, email, password, conPassword)
   }
+
+  axios.post('/127.0.0.1:4000/Register', {
+    Username: [username],
+    Password: [password],
+    Email : [email]
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 
   return (
     <div className="register-container">

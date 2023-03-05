@@ -12,6 +12,7 @@ import Buycourse from './views/buycourses'
 import Topup from './views/top-up'
 import Setting from './views/setting'
 import Global from './views/global-notification-box'
+import axios from 'axios';
 
 const App = () => {
   return (
