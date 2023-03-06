@@ -107,7 +107,7 @@ const Login = (props) => {
             <label>Forget password</label>
           </label>
           <form onSubmit={handleSubmit}>
-            <button className="login-button">Login</button>
+            <button className="login-button" onClick={() => window.location.href="/home"}>Login</button>
           </form>
         </div>
         <label className="login-text12">
